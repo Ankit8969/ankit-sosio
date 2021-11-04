@@ -1,0 +1,50 @@
+form {
+  width: 400px;
+  border: 1px solid black;
+  padding: 10px;
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(77, 77, 77);
+  border-radius: 10px;
+}
+form input {
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  word-break: break-all;
+  font-size: 16px;
+}
+form label {
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: white;
+}
+
+form button {
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  background-color: blueviolet;
+  border: 1px solid white;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background-color: rgb(80, 0, 155);
+}
+
+.implace {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: #bcbbba;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+}
